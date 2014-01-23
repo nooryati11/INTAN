@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="css/tema.css" />
+<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+
+</head>
+
+<body>
+<!--Page 1 -->
+<div data-role="page" id="page1">
+  <!--content -->
+  <div role="main" class="ui-content">
+  <center>
+	<h2>Selamat Datang</h2>
+	<img src="Gambar/jatanegara.jpg" width="100" height ="100"/> <br/>
+	<h3>Laman Rasmi JPM</h3>
+	</center>
+	<a href="#page2" class="ui-btn">Masuk</a>
+  </div>
+</div>
+
+
+<!--Page 2 -->
+
+<div data-role="page" id="page2">
+<div data-role="panel" id="panel" data-display="overlay">
+<h3>Senarai Mukasurat</h3>
+<br/>
+            <ul data-role="listview">
+                <li><a href="#page2" data-icon="grid">Latar Belakang</a></li>
+                <li><a href="#page3" data-icon="star">Fungsi</a></li>
+                <li><a href="#page5" data-icon="gear">Senarai Menteri</a></li>
+            </ul>
+</div>
+
+	<!--header -->
+	<div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<a href="#panel" data-icon="bars" data-iconpos="notext">Menu</a>
+	<h3>Laman Rasmi JPM</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  	<center> <img src="Gambar/jatanegara.jpg" width="100" height ="100"/> <br/> </center>
+  <h3>Latar Belakang</h3>
+	<strong>Jabatan Perdana Menteri, yang sebelum ini dikenali sebagai Pentadbiran Am, JPM telah disusun semula menjadi sembilan (9) 
+	bahagian iaitu Bahagian Inovasi & Pengurusan Sumber Manusia (BIPSM), Bahagian Kewangan (B.Kew), Bahagian Pembangunan (B.Pemb), 
+	Bahagian Akaun (BA), Bahagian Khidmat Pengurusan (BKP), Bahagian Audit Dalam, Unit Komunikasi Korporat (UKK), Bahagian Pengurusan
+	Acara & Pejabat Penasihat Undang-Undang. Kesemua sembilan (9) bahagian tersebut berada di bawah tanggungjawab Timbalan Ketua Setiausaha
+	Kanan dan dibantu oleh dua (2) Timbalan Ketua Setiausaha iaitu Timbalan Ketua Setiausaha Pengurusan TKSU (P) dan Timbalan Ketua Setiausaha Kewangan dan Pembangunan TKSU (K&P).
+	</strong>
+	
+	
+	<center> <a href="#pop1" class="ui-btn ui-btn-inline" data-rel="popup" data-transition="pop">Visi </a></center> 
+	<div data-role="popup" id="pop1">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">Visi</a>
+		<h3>Visi</h3>
+		<p> Kuasa Udara yang unggul</p>
+		<h3>Misi</h3>
+		<p> Mempertabatkan Perkhidmatan Awam</p>
+	</div>
+	
+<a href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-delete ui-btn-icon-left ui-btn-b">Visi dan Misi</a>
+<div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+    <div data-role="header" data-theme="a">
+    <h1>Visi dan Misi</h1>
+    </div>
+    <div role="main" class="ui-content">
+        <h3>Visi</h3>
+		<p> Kuasa Udara yang unggul</p>
+		<h3>Misi</h3>
+		<p> Mempertabatkan Perkhidmatan Awam</p>
+        <a href="#page1" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b">Menu Utama</a>
+        <a href="#page3" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Page 3</a>
+    </div>
+</div>
+
+ </div>
+  
+  <!--footer -->
+  <!--div data-role="footer" data-position="fixed">
+  <a href="#page3" class="ui-btn ui-btn-inline">Page 3 </a>
+  <a href="#page4" class="ui-btn ui-btn-inline">Page 4 </a>
+  <a href="#page5" class="ui-btn ui-btn-inline">Page 5 </a>
+  </div-->
+
+  
+      <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-icon="grid" class="ui-btn-active ui-state-persist">Latar Belakang</a></li>
+                <li><a href="#page3" data-icon="star">Fungsi</a></li>
+                <li><a href="#page5" data-icon="gear">Senarai Menteri</a></li>
+            </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+  
+  
+  
+  
+  </div> 
+  
+  
+  
+  <!--Page 3 -->
+<div data-role="page" id="page3">
+
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<h3>Laman Rasmi JPM</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  	<center> <img src="Gambar/jatanegara.jpg" width="100" height ="100"/> <br/> </center>
+	<h3>Fungsi dan Peranan3</h3>
+	<strong>
+	<div data-role ="collapsible-set">
+	<div data-role="collapsible" data-collapsed="false">
+	
+	<h4>Perkhidmatan Sokongan</h4>
+		<p>Pentadbiran, kewangan, pengurusan sumber manusia, keselamatan, sosial dan lain-lain kepada warga jabatan Perdana Menteri dengan cekap dan berkesan, mengikut aturan dan arahan yang telah ditetapkan. </p>
+	</div>	
+	
+	<div data-role="collapsible">
+	<h4>Pengurusan</h4>
+		<p>Menguruskan keperluan kuarters, ruang pejabat dan tempat beristirehat supaya kondusif dan selesa untuk Anggota Perkhidmatan Awam. </p>
+	</div>		
+	
+	<div data-role="collapsible">
+	<h4>Menguruskan Semua Harta</h4>	
+		<p>Dimiliki oleh Kerajaan Persekutuan dengan cekap dan berkesan. </p>
+	</div>	
+	
+	<div data-role="collapsible">
+	<h4>Peningkatan Kualiti</h4>
+	<p>Perkhidmatan Awam Malaysia supaya lebih cekap, berkesan, responsif dan berintegriti serta membudayakan penggunaan teknologi maklumat dalam perkhidmatan awam.</p><br/>
+	</div>
+	</div>
+	</div>
+</strong> 
+
+<!--a href="#page4" class="ui-btn" data-transition="turn" data-direction ="reverse">Page 4 </a-->
+
+  <!--footer -->
+  <!--div data-role="footer" data-position="fixed">
+  <a href="#page2" class="ui-btn ui-btn-inline">Page 2 </a>
+  <a href="#page4" class="ui-btn ui-btn-inline">Page 4 </a>
+  <a href="#page5" class="ui-btn ui-btn-inline">Page 5 </a>
+  </div-->
+  
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page3" data-icon="grid" class="ui-btn-active ui-state-persist">Fungsi</a></li>
+				<li><a href="#page2" data-icon="star">Latar Belakang</a></li>
+                <li><a href="#page5" data-icon="gear">Senarai Menteri</a></li>
+            </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+  
+  
+  
+  
+ </div>
+  
+
+
+<!--Page 4 -->
+<div data-role="page" id="page4">
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<h3>Laman Rasmi JPM</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  	<center> <img src="Gambar/jatanegara.jpg" width="100" height ="100"/> <br/> </center>
+	<h3>Objektif</h3>
+	<strong>
+	<ol>
+	<li>Menentukan pengurusan sumber manusia, kewangan, pembangunan, perakaunan dan khidmat pengurusan dilaksanakan mengikut dasar, perundangan/ peraturan dan garis panduan semasa..</li><br/>
+	</ol>
+	</strong> 
+	<a href="#page5" class="ui-btn" data-transition="turn" data-direction ="reverse">Page 5 </a>
+	</div>
+  
+  <!--footer -->
+  <!--div data-role="footer" data-position="fixed">
+  <a href="#page2" class="ui-btn ui-btn-inline">Page 2 </a>
+  <a href="#page3" class="ui-btn ui-btn-inline">Page 3 </a>
+  <a href="#page5" class="ui-btn ui-btn-inline">Page 5 </a>
+  </div-->
+  
+      <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page5" data-icon="grid" class="ui-btn-active ui-state-persist">Senarai Menteri</a></li>
+				<li><a href="#page2" data-icon="star">Latar Belakang</a></li>
+				<li><a href="#page3" data-icon="star">Fungsi</a></li>
+            </ul>
+        </div><!-- /navbar -->
+	</div><!-- /footer -->
+  
+  
+</div>
+
+
+
+
+<!--Page 5 -->
+<div data-role="page" id="page5">
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<h3>Laman Rasmi JPM</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	  <div data-role="popup" id="d1">
+			<a href="Tel:+0193941185" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline">telefon </a>
+			<a href="sms://+0193941185" class="ui-btn ui-icon-action ui-btn-icon-notext ui-corner-all ui-btn-inline">sms</a>
+			<a href="mailto:ppmyati@pmo.gov.my" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all  ui-btn-inline">Emel</a></p>
+	 </div> 
+ 
+	 <div data-role="popup" id="d2">
+			<a href="Tel:+0193941185" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline">telefon </a>
+			<a href="sms://+0193941185" class="ui-btn ui-icon-action ui-btn-icon-notext ui-corner-all ui-btn-inline">sms</a>
+			<a href="mailto:ppmyati@pmo.gov.my" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all  ui-btn-inline">Emel</a></p>
+	 </div>
+ 
+	 <div data-role="popup" id="d3">
+			<a href="Tel:+0193941185" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline">telefon </a>
+			<a href="sms://+0193941185" class="ui-btn ui-icon-action ui-btn-icon-notext ui-corner-all ui-btn-inline">sms</a>
+			<a href="mailto:ppmyati@pmo.gov.my" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all  ui-btn-inline">Emel</a></p>
+	 </div>
+ 
+	<h3>Senarai Menteri</h3>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Taipkan Nama: ">
+		<!--ul data-role="listview" data-inset="true"-->
+		<li>
+			<a href="#d1" data-rel="popup" data-transition="slideup">
+			<img style="height:100%; width:100%" src="gambar/dsn.jpg" alt="" >
+			<h4>DATO' SRI MOHD. NAJIB BIN TUN HAJI ABDUL RAZAK</h4>
+			<p>Menteri Kewangan</br>
+			</p> </a>
+		</li>
+		
+	
+		
+		<li>
+		
+			
+			<a href="#d2" data-rel="popup" data-transition="slideup"?><img style="height:100%; width:100%" src="gambar/tpm.jpg" alt="" >
+			<h4>DATO' HAJI MUHYIDDIN BIN MOHD. YASSIN</h4>
+			<p>Menteri Pendidikan</br>
+			</p> </a>
+		</li>
+		
+		<li>
+			<a href="#d3" data-rel="popup" data-transition="slideup"><img style="height:100%; width:100%" src="gambar/jamil.jpg" alt="" >
+			<h6>MEJAR JENERAL DATO' SERI JAMIL KHIR BIN BAHAROM</h6>
+			<p>Menteri di JPM</br>
+			</p> </a>
+		</li	
+<		/ul>
+
+	 <!--footer -->
+  <!--div data-role="footer" data-position="fixed">
+  <a href="#page2" class="ui-btn ui-btn-inline">Page 2 </a>
+  <a href="#page3" class="ui-btn ui-btn-inline">Page 3 </a>
+  <a href="#page4" class="ui-btn ui-btn-inline">Page 4</a>
+  </div-->
+  
+        <div data-role="footer">
+        <div data-role="navbar">
+            <ul><br/>
+                <li><a href="#page5" data-icon="grid" class="ui-btn-active ui-state-persist">Senarai Menteri</a></li>
+				<li><a href="#page2" data-icon="star">Latar Belakang</a></li>
+				<li><a href="#page3" data-icon="star">Fungsi</a></li>
+            </ul>
+        </div><!-- /navbar -->
+		</div><!-- /footer -->
+  
+  
+  
+</div>
+
+
+  
+</body>
+</html>
+

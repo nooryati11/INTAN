@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	font-family: "futura,lucida grande",tahoma,verdana,arial,sans-serif;
+    /*font-size: 71%;*/
+	font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+}
+
+#car {
+color:black;
+font-weight: bold; 
+background-color:#cecece;
+}
+/* table outside frame */
+.frame{
+    border : 1px solid #999999;
+}
+
+.a1{
+    text-decoration:none;
+	
+}
+
+.a2{
+    text-decoration:none;
+	background-color:white;
+}
+
+.a3{
+    text-decoration:none;
+	background-color:orange;
+}
+
+h2 {
+    /*font-size: 11px;*/
+	font-size: 1.0em;
+}
+
+.g1{
+    background-color:#D5E9F0;
+	height: 14px;
+    padding: 8px;
+}
+
+.g2{
+    float:right;
+}
+
+.light2 { background-color: #CCCCCC; }
+
+.box2 {
+    border-style: solid ;
+    border-top-color: #707078 ;
+    border-left-color: #707078 ;
+    border-bottom-color: #707078 ;
+    border-right-color: #707078 ;
+    border-width: 1px;
+    padding: 2px; border-radius: 8px ;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+/* used by row stripe */
+.row1 {
+    background-color:#EEEEEE;
+}
+
+.row2 {
+    background-color:white;
+}
+
+.rowover {
+    background-color:#FFCCCC;
+}
+
+/* table header */
+.t2 {
+    font-family     : Verdana;
+    /*font-size       : 11px;*/
+	font-size: 1.0em;
+    font-weight     : bold;
+    color           : #333333;
+    /*background-color: #DF9909;*/
+    background      : url(./images/colbg.png) repeat-x;
+    text-align      : center;
+    height: 18px;
+}
+
+.button2, submit, button {
+	color : #666666;
+	font-weight : bold;
+	/*font-size : 11px;*/
+	font-size: 1.0em;
+	padding: 4px;
+	background-color: #fefefe url(./images/element_bg.gif) repeat-x;*/
+	border: 1px solid;
+	border-color: #c4cccc #acb5b5 #6f7777 #acb5b5;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 2px #AAA;
+}
+
+.button2:hover{
+	outline-width: 4px;
+	text-decoration: none;
+	background-color: #FFF;
+	outline: #D6FFC9 solid 2px;
+	color : red;
+}
+
+#gambar2 {
+    float: left;
+    margin-top: -138px;
+    width: 400px;
+}
+
+#welcome {
+    color: navy;
+	font-weight: bold;
+}
+
+/*#login {
+ 
+  width: 400px;
+  float: left;    
+ 
+           /*background: #6782AE;*/
+/* background: #D5E9F0;
+ margin:0 12.5em;
+ white-space:normal;
+ display:block;zoom:1; /* For IE7 
+  }    */
+

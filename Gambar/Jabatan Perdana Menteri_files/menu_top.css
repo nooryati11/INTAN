@@ -1,0 +1,158 @@
+#home {
+    /*background: url(./images/home.png) no-repeat bottom left;*/
+    float: left;
+    border: 0px solid green;
+    padding-left: 20px;
+    /*padding-right: 20px;*/
+    padding-top: 8px;
+    width: 94px;
+}
+
+p#menuHome a:hover {
+    /*background-image: url(./images/home_green_16.png);*/
+}
+
+#menuTop2 {
+    height: 24px;
+    border: 0px solid blue;
+    background-image: url(./images/menutop_bg.png);
+	background-repeat: repeat-x;
+}
+
+#menuTop3 {
+    height: 24px;
+    border: 0px solid red;
+    margin: 0 auto;
+    padding: 0;
+	width:920px;
+}
+
+#menuTop {
+    position: relative;
+    padding-top: 0px;
+    height: 24px;
+    border: 0px solid yellow;
+	width:920px;
+}
+
+#menuTop ul, #menuTop li {
+    margin: 0;
+    padding: 2px;
+	/*FONT-SIZE:11px;*/
+	font-size: 1.0em;
+}
+
+#menuTop ul {
+    list-style-type: none;
+}
+
+#menuTop li {
+    display: block;
+    width: 90px;
+    height: 20px;
+    margin: 0 3px 0 0;
+    text-align: center;
+    border-left: 2px solid white;
+}
+
+#menuTop a {
+    display: block;
+    margin: 0;
+    padding: 0 3px;
+	/*FONT-SIZE:11px;*/
+	font-size: 1.0em;
+}
+
+#menuTop a:link, #menuTop a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#menuTop ul.menuVert a {
+    /*color: #D4E9F8;*/
+	color: #000000;
+}
+
+#menuTop a:hover {
+    color: blue;
+}
+
+ul.menuHoriz li {
+    float: left;
+    background-color: transparent;
+    margin-top: 3px;
+    border: 0px solid red;
+    line-height: 20px;
+}
+
+ul.menuVert {
+    position: absolute;
+    visibility: hidden;
+    top: 20px;
+    /*background-color: #312e1d;*/
+    background-color: #E2DBDB;
+	width:150px;
+}
+
+ul#menuSubOne li, ul#menuSubTwo li, ul#menuSubThree li, ul#menuSubFour li, ul#menuSubFive li  {
+    text-align: left;
+	width:150px;
+}
+
+ul#menuSubOne   { left: 112px} /* ini untuk pekeliling*/
+ul#menuSubTwo { left: 607px } /* ini untuk arkib*/
+ul#menuSubThree { left: 211px } /* ini untuk media*/
+ul#menuSubFour { left: 310px; height: 282px; } /* ini untuk penerbitan*/
+ul#menuSubFive  { left: 409px } /* ini untuk direktori*/
+
+#warna {
+    border: 0px solid yellow;
+    float: left;
+    margin-top: 2px;
+	margin-right:80px;
+	/*margin-right:125px;     ubah pada 2 Mac 2011 */
+	width:227px;
+	/*width:210px;             ubah pada 2 Mac 2011*/
+}
+
+#warna a {
+    border: 0px solid red;
+    float: left;
+	margin-left:2px;
+}
+
+#warna2 {
+	margin-left:65px;
+    border: 0px solid yellow;
+    float: left;
+    margin-top: 2px;
+	
+}
+
+#warna2 a {
+    border: 0px solid red;
+    float: left;
+	margin-left:2px;
+}
+
+#search {
+    border: 0px solid yellow;
+    float: right;
+    background: url("./images/search.png") no-repeat;
+    height: 23px;
+    width: 150px;
+    margin-top: -1px;
+    padding: 1px;
+}
+
+#search2 {
+    border: 0px solid yellow;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    padding-left: 22px;
+    padding-top: 4px;
+	margin-top: -1px;
+	width:120px;	
+	
+}
